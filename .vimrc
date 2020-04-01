@@ -11,6 +11,8 @@ Plug 'itchyny/lightline.vim'
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'evanleck/vim-svelte'
 Plug 'arcticicestudio/nord-vim'
+Plug 'evanleck/vim-svelte'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
@@ -27,6 +29,7 @@ let g:NERDTreeShowBookmarks = 1
 set tabstop=2                     " Global tab width.
 set shiftwidth=2                  " And again, related.
 set expandtab                     " Use spaces instead of tabs
+set number                        " Show line numbers
 
 silent! colorscheme nord
 

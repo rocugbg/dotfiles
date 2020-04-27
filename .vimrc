@@ -34,6 +34,9 @@ set number                        " Show line numbers
 
 silent! colorscheme nord
 
+" Ctrlp, Install from here http://ctrlpvim.github.io/ctrlp.vim/#installation
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " Automaticaly close nvim if NERDTree is only thing left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " Toggle Nerdtree with CTRL+n

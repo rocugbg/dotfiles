@@ -23,6 +23,7 @@ let g:NERDTreeMinimalUI = 1
 let g:NERDTreeIgnore = []
 let g:NERDTreeStatusline = ''
 let g:NERDTreeShowBookmarks = 1
+let g:NERDTreeQuitOnOpen = 1
 " Deoplete settings, see above
 "let g:deoplete#enable_at_startup = 1
 
